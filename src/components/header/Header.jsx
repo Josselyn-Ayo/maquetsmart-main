@@ -9,7 +9,6 @@ const Header = () => {
             <nav className="container__nav">
                 <NavLink to="/">Nosotros</NavLink>
                 <a href="#galeria">Galería</a>
-                <a href="#planes">Planes</a>
                 <a href="#faq">Preguntas Frecuentes</a>
                 <NavLink to="/dashboard">Proforma</NavLink>
                 <NavLink to="/contacto">Contacto</NavLink>
