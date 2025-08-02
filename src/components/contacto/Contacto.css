@@ -1,0 +1,51 @@
+/* src/components/contacto/Contacto.css */
+
+.contacto {
+  padding: var(--separacion) 0;
+  scroll-margin-top: 10rem;
+  padding-top: 60rem;
+}
+
+.contacto h2 {
+  color: rgb(0, 0, 0);
+  margin-bottom: 3rem;
+}
+
+.contacto-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.info-item {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.info-item h3 {
+  color: rgb(0, 0, 0);
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.info-item p {
+  color: var(--colorTerciario);
+  font-size: 1.6rem;
+}
+
+.contacto-info .icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 1rem;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
